@@ -31,7 +31,7 @@ public class week1 {
                 String name = sc.nextLine();
 
                 if (name.trim().isEmpty()) {
-                    System.out.println("이름 없습니다. 다시 입력하세요 ");
+                    System.out.println("이름 없음. 다시 입력하세요 ");
                     i--;
                     continue;
                 }
@@ -45,7 +45,7 @@ public class week1 {
                 }
 
                 if (isDuplicate) {
-                    System.out.println("중복된 이름입니다, 다시 입력하세요.");
+                    System.out.println("중복된 이름, 다시 입력하세요.");
                     i--;
                     continue;
                 }
@@ -57,7 +57,7 @@ public class week1 {
             System.out.println("멤버 출력");
 
             for (int i = 0; i < members.length; i++) {
-                System.out.println("🦁 " + (i + 1) + ". " + members[i]);
+                System.out.println((i + 1) + ". " + members[i]);
             }
 
             // 4. 종료

@@ -14,15 +14,15 @@ public class member {
 
     public boolean isValid() {
         if (name == null || name.isEmpty()) {
-            System.out.println("❌ 이름은 비어 있을 수 없습니다.");
+            System.out.println("이름은 비어 있을 수 없습니다.");
             return false;
         }
         if (major == null || major.isEmpty()) {
-            System.out.println("❌ 전공은 비어 있을 수 없습니다.");
+            System.out.println("전공은 비어 있을 수 없습니다.");
             return false;
         }
         if (generation < 1) {
-            System.out.println("❌ 기수는 1 미만일 수 없습니다.");
+            System.out.println("기수는 1 미만일 수 없습니다.");
             return false;
         }
         return true;
@@ -30,13 +30,13 @@ public class member {
 
     // print
     public void printInfo() {
-        System.out.println("👤 이름: " + name + " | 🎓 전공: " + major + " | 📌 기수: " + generation);
+        System.out.println("이름: " + name + " , 전공: " + major + " , 기수: " + generation);
     }
     
     public void setMajor(String major) {
         if (major != null && !major.isEmpty()) {
             this.major = major;
-            System.out.println("✅ 전공이 성공적으로 변경되었습니다.");
+            System.out.println("전공이 성공적으로 변경되었습니다.");
         }
     }
 }

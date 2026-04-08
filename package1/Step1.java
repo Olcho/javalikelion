@@ -15,7 +15,6 @@ public class step1 {
 
         System.out.println("입력값 검증을 진행합니다.");
         
-        // main에서 직접 검증
         if (name.isEmpty() || major.isEmpty() || gen < 1) {
             System.out.println("이름/전공이 비어 있거나 기수가 1 미만입니다.");
         } else {
@@ -24,5 +23,6 @@ public class step1 {
             System.out.println("멤버 객체를 성공적으로 생성하였습니다.");
             member.printInfo();
         }
+        sc.close()
     }
 }
