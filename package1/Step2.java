@@ -3,7 +3,7 @@ package package1;
 import java.util.Scanner;
 
 public class step2 {
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("멤버 이름을 입력해주세요.");
@@ -23,5 +23,6 @@ public class step2 {
         } else {
             System.out.println("잘못된 멤버 정보입니다.");
         }
+        sc.close();
     }
 }

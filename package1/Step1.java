@@ -3,7 +3,7 @@ package package1;
 import java.util.Scanner;
 
 public class step1 {
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("멤버 이름을 입력해주세요.");
@@ -23,6 +23,6 @@ public class step1 {
             System.out.println("멤버 객체를 성공적으로 생성하였습니다.");
             member.printInfo();
         }
-        sc.close()
+        sc.close();
     }
 }

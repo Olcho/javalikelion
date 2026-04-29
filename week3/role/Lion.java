@@ -1,7 +1,7 @@
 package week3.role;
 
 import week3.policy.SubmitPolicy;
-import week3.policy.Lionpolicy;
+import week3.policy.LionPolicy;
 
 public class Lion extends Role{
     private String studentId;
@@ -12,14 +12,14 @@ public class Lion extends Role{
     }
 
     public SubmitPolicy getPolicy() {
-        return new Lionpolicy();
+        return new LionPolicy();
     }
 
     public String getInfo() {
-        return "Likelion\n"
+        return "Role: Likelion\n"
                 +"Name: "+getName()
-                +"Generation: "+getGeneration()
-                +"Part: "+getPart()
-                +"StudentId: "+studentId;
+                +"\nGeneration: "+getGeneration()
+                +"\nPart: "+getPart()
+                +"\nStudentId: "+studentId;
     }
 }

@@ -20,7 +20,7 @@ public abstract class Role {
     public int getGeneration() {return generation;}
     public String getPart() {return part;}
 
-    public abstract week3.policy.SubmitPolicy getPolicy();
+    public abstract SubmitPolicy getPolicy();
     public abstract String getInfo();
 }
 
