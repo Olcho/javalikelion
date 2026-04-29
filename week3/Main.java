@@ -31,7 +31,7 @@ public class Main {
         
         boolean result = role.getPolicy().canSubmit();
 
-        System.out.println("Assignment: "+ (result "Possible": "Impossible"));
-        System.out.println()
+        System.out.println("Assignment: "+ (result ? "Possible": "Impossible"));
+        System.out.println();
     }
 }
