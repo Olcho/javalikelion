@@ -21,22 +21,22 @@ public class Main {
         
         Role lion = new Lion(lionname, lionmajor, liongen, lionpart, studentId);
 
-        System.out.print("\nStaff Info ");
+        System.out.print("\nStaff Info \n");
 
-        System.out.println("Name: ");
+        System.out.print("Name: ");
         String staffname = sc.next();
-        System.out.println("Major: ");
+        System.out.print("Major: ");
         String staffmajor = sc.next();
-        System.out.println("Gen: ");
+        System.out.print("Gen: ");
         int staffgen = sc.nextInt();
-        System.out.println("Part: ");
+        System.out.print("Part: ");
         String staffpart = sc.next();
-        System.out.println("Position: ");
+        System.out.print("Position: ");
         String position = sc.next();
 
         Role staff = new Staff(staffname, staffmajor, staffgen, staffpart, position);
 
-        System.out.println("\n\nki");
+        System.out.println("\n\n");
         printResult(lion);
         printResult(staff);
 
