@@ -18,6 +18,7 @@ public class Lion extends Role{
     public String getInfo() {
         return "Role: Likelion\n"
                 +"Name: "+getName()
+                +"\nMajor: " + getMajor()
                 +"\nGeneration: "+getGeneration()
                 +"\nPart: "+getPart()
                 +"\nStudentId: "+studentId;
